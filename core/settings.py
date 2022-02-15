@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_8)^=$gwgy4c&%k!!6a5ev*ql!%gxba@-oi*zel1920t162%s$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['coreprojects.herokuapp.com']
 
 
 # Application definition
@@ -123,8 +123,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 MEDIA_URL = '/media/'
-CORE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# Extra places for collectstatic to find static files.
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join( BASE_DIR , 'media')
